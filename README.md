@@ -1,5 +1,5 @@
 # My Stars
-Updated at: Sun, 23 Oct 2022 14:13:20 +0000
+Updated at: Sun, 23 Oct 2022 14:16:20 +0000
 
 Usage:
 1. Get a access token from [github](https://github.com/settings/tokens)
@@ -81,7 +81,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not fre…… (`stars: 10046`, `license: mit`)
 - [jetpack-io/devbox](https://github.com/jetpack-io/devbox) - Instant, easy, predictable shells and containers. (`stars: 3984`, `license: apache-2.0`)
 - [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) - Cross-platform file system notifications for Go. (`stars: 7538`, `license: bsd-3-clause`)
-- [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) - ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解 (`stars: 27171`, `license: mit`)
+- [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) - ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解 (`stars: 27172`, `license: mit`)
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network (`stars: 6142`, `license: other`)
 - [kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL (`stars: 6576`, `license: mit`)
 - [fortio/fortio](https://github.com/fortio/fortio) - Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats. (`stars: 2709`, `license: apache-2.0`)
@@ -178,8 +178,8 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [harness/drone](https://github.com/harness/drone) - Drone is a Container-Native, Continuous Delivery Platform (`stars: 25900`, `license: other`)
 - [Masterminds/squirrel](https://github.com/Masterminds/squirrel) - Fluent SQL generation for golang (`stars: 5253`, `license: other`)
 - [mainflux/mainflux](https://github.com/mainflux/mainflux) - Industrial IoT Messaging and Device Management Platform (`stars: 1911`, `license: apache-2.0`)
-- [Dreamacro/clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go. (`stars: 32203`, `license: gpl-3.0`)
-- [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files (`stars: 35106`, `license: mit`)
+- [Dreamacro/clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go. (`stars: 32202`, `license: gpl-3.0`)
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files (`stars: 35107`, `license: mit`)
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨ (`stars: 22961`, `license: other`)
 - [arl/statsviz](https://github.com/arl/statsviz) - :rocket: Visualise Go program runtime metrics in real time in your browser (`stars: 2398`, `license: mit`)
 - [nats-io/jwt](https://github.com/nats-io/jwt) - JWT tokens signed using NKeys for Ed25519 for the NATS ecosystem. (`stars: 55`, `license: apache-2.0`)
@@ -348,7 +348,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 
 ### Python
 - [certbot/certbot](https://github.com/certbot/certbot) - Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol. (`stars: 29357`, `license: other`)
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs (`stars: 212891`, `license: mit`)
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs (`stars: 212892`, `license: mit`)
 - [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) - This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. (`stars: 21235`, `license: other`)
 - [sripathikrishnan/redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON (`stars: 4580`, `license: mit`)
 - [FutunnOpen/py-futu-api](https://github.com/FutunnOpen/py-futu-api) - 富途 OpenAPI  Python SDK (`stars: 854`, `license: apache-2.0`)
@@ -373,7 +373,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 ### Rust
 - [graphul-rs/graphul](https://github.com/graphul-rs/graphul) - Optimize, speed, scale your microservices and save money 💵 (`stars: 122`, `license: mit`)
 - [postgresml/postgresml](https://github.com/postgresml/postgresml) - PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database. (`stars: 1977`, `license: mit`)
-- [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web (`stars: 24336`, `license: apache-2.0`)
+- [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web (`stars: 24337`, `license: apache-2.0`)
 - [pintariching/rustle](https://github.com/pintariching/rustle) - Svelte compiler rewritten in Rust (`stars: 1148`, `license: mit`)
 - [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (`stars: 13932`, `license: other`)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 The leading WebAssembly Runtime supporting WASI and Emscripten (`stars: 13195`, `license: mit`)
@@ -384,7 +384,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust. (`stars: 14601`, `license: agpl-3.0`)
 - [01mf02/jaq](https://github.com/01mf02/jaq) - A jq clone focussed on correctness, speed, and simplicity (`stars: 613`, `license: mit`)
 - [roapi/roapi](https://github.com/roapi/roapi) - Create full-fledged APIs for slowly moving datasets without writing a single line of code. (`stars: 2460`, `license: apache-2.0`)
-- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续六年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，甚至还有JS程序员关注的 WASM 和 Deno 等专题。这可能是目前最用心的 Rust 中文学习教程 / Book  (`stars: 11303`, `license: `)
+- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续六年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，甚至还有JS程序员关注的 WASM 和 Deno 等专题。这可能是目前最用心的 Rust 中文学习教程 / Book  (`stars: 11302`, `license: `)
 - [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests (`stars: 3194`, `license: mit`)
 - [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - ⚙️ A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality. (`stars: 10401`, `license: mit`)
 - [awslabs/shuttle](https://github.com/awslabs/shuttle) - Shuttle is a library for testing concurrent Rust code (`stars: 352`, `license: apache-2.0`)
@@ -416,7 +416,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [actix/actix](https://github.com/actix/actix) - Actor framework for Rust. (`stars: 7448`, `license: apache-2.0`)
 - [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust) -  All Algorithms implemented in Rust  (`stars: 11800`, `license: mit`)
 - [hyperium/tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support. (`stars: 6077`, `license: mit`)
-- [tokio-rs/tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ... (`stars: 17962`, `license: mit`)
+- [tokio-rs/tokio](https://github.com/tokio-rs/tokio) - A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ... (`stars: 17961`, `license: mit`)
 - [hyperium/hyper](https://github.com/hyperium/hyper) - An HTTP library for Rust (`stars: 10575`, `license: mit`)
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend. (`stars: 53064`, `license: apache-2.0`)
 - [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org (`stars: 9610`, `license: mit`)
@@ -427,7 +427,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust (`stars: 10952`, `license: mpl-2.0`)
 - [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! (`stars: 29775`, `license: isc`)
 - [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer (`stars: 7149`, `license: apache-2.0`)
-- [Peltoche/lsd](https://github.com/Peltoche/lsd) - The next gen ls command (`stars: 8576`, `license: apache-2.0`)
+- [Peltoche/lsd](https://github.com/Peltoche/lsd) - The next gen ls command (`stars: 8575`, `license: apache-2.0`)
 - [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings. (`stars: 37721`, `license: apache-2.0`)
 - [sharkdp/fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find' (`stars: 24992`, `license: apache-2.0`)
 
@@ -464,7 +464,7 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [bytedance/bytemd](https://github.com/bytedance/bytemd) - Hackable Markdown Editor and Viewer (`stars: 3068`, `license: mit`)
 - [markmap/markmap](https://github.com/markmap/markmap) - Visualize your Markdown as mindmaps with Markmap. (`stars: 4061`, `license: mit`)
 - [growthbook/growthbook](https://github.com/growthbook/growthbook) - Open Source Feature Flagging and A/B Testing Platform (`stars: 3716`, `license: mit`)
-- [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台 (`stars: 6949`, `license: mit`)
+- [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台 (`stars: 6950`, `license: mit`)
 - [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient. (`stars: 20887`, `license: apache-2.0`)
 - [grafana/grafana](https://github.com/grafana/grafana) - The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.…… (`stars: 51693`, `license: agpl-3.0`)
 - [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API (`stars: 80412`, `license: apache-2.0`)
@@ -473,13 +473,13 @@ You can also set the env variable `GITHUB_TOKEN` .
 - [buefy/buefy](https://github.com/buefy/buefy) - Lightweight UI components for Vue.js based on Bulma (`stars: 9324`, `license: mit`)
 
 ### Zig
-- [ziglang/zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. (`stars: 18104`, `license: mit`)
+- [ziglang/zig](https://github.com/ziglang/zig) - General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. (`stars: 18105`, `license: mit`)
 
 ### Others
 - [rust-lang/api-guidelines](https://github.com/rust-lang/api-guidelines) - Rust API guidelines (`stars: 1089`, `license: apache-2.0`)
 - [cobaltdisco/Google-Chinese-Results-Blocklist](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist) - 我终于能用谷歌搜中文了…… (`stars: 7063`, `license: `)
 - [google/eng-practices](https://github.com/google/eng-practices) - Google's Engineering Practices documentation (`stars: 18843`, `license: other`)
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. (`stars: 169345`, `license: `)
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. (`stars: 169346`, `license: `)
 - [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19) - Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE (`stars: 29059`, `license: `)
 - [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) - A curated list of amazingly awesome PHP libraries, resources and shiny things. (`stars: 27519`, `license: wtfpl`)
 - [php-fig/fig-standards](https://github.com/php-fig/fig-standards) - Standards either proposed or approved by the Framework Interop Group (`stars: 12358`, `license: other`)
