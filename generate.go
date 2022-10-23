@@ -22,6 +22,8 @@ func Desc() string {
 	%s
 
 You can also set the env variable %sGITHUB_TOKEN%s .
+
+---
 `
 
 	return fmt.Sprintf(template, c3, c3, c1, c1)
