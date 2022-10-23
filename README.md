@@ -2,6 +2,14 @@
 
 Updated at: Sun, 23 Oct 2022 11:51:26 +0800
 
+Usage:
+
+1. Get a access token from [github](https://github.com/settings/tokens)
+2. Execute:
+```bash
+go run github.com/xiaoler/mystars/cmd/main.go -o README.md -t {your token}
+```
+
 ### Clojure
 
 -   [tonsky/FiraCode](https://github.com/tonsky/FiraCode) - Free monospaced font with programming ligatures (`stars: 66896`, `license: ofl-1.1`)
