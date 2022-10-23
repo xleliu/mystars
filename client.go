@@ -22,6 +22,25 @@ type Abstract struct {
 	License   string
 }
 
+func GetLicense(l *github.License) string {
+	if l == nil {
+		return ""
+	}
+	return *l.Key
+}
+
+func GetString(ptr *string, placeholder string, limit int) string {
+	if ptr == nil {
+		return placeholder
+	}
+	// 限制长度
+	rs := []rune(*ptr)
+	if limit > 0 && len(rs) > limit {
+		return string(rs[:limit]) + "……"
+	}
+	return *ptr
+}
+
 func NewGithub(ctx context.Context, accessToken string) *Github {
 	ts := oauth2.StaticTokenSource(
 		&oauth2.Token{AccessToken: accessToken},
@@ -37,7 +56,7 @@ func NewGithub(ctx context.Context, accessToken string) *Github {
 }
 
 func (g *Github) HasNext() bool {
-	fmt.Println(g.NextPage, g.LastPage)
+	fmt.Printf("WIP… Next Page: %d, Last Page: %d\n", g.NextPage, g.LastPage)
 	if g.NextPage == 0 {
 		return false
 	}
@@ -57,18 +76,4 @@ func (g *Github) MyStars(ctx context.Context) ([]*github.StarredRepository, erro
 	repos, resp, err := g.client.Activity.ListStarred(ctx, "", opts)
 	g.NextPage, g.LastPage = resp.NextPage, resp.LastPage
 	return repos, err
-}
-
-func GetLicense(l *github.License) string {
-	if l == nil {
-		return ""
-	}
-	return *l.Key
-}
-
-func GetString(ptr *string, p string) string {
-	if ptr == nil {
-		return p
-	}
-	return *ptr
 }

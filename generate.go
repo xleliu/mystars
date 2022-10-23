@@ -11,15 +11,20 @@ func Title() string {
 }
 
 func Desc() string {
-	c := "```"
-	return fmt.Sprintf(`Usage:
+	c1 := "`"
+	c3 := "```"
 
+	template := `Usage:
 1. Get a access token from [github](https://github.com/settings/tokens)
 2. Execute:
 	%sbash
 	go run github.com/xiaoler/mystars/cmd/main.go -o README.md -t {your token}
-	%s 
-`, c, c)
+	%s
+
+You can also set the env variable %sGITHUB_TOKEN%s .
+`
+
+	return fmt.Sprintf(template, c3, c3, c1, c1)
 }
 
 func Category(lang string) string {
