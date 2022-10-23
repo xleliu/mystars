@@ -23,10 +23,12 @@ func Desc() string {
 
 You can also set the env variable %sGITHUB_TOKEN%s .
 
+If use the Github Action, please set up %ssecrets.UPDATE_TOKEN%s.
+
 ---
 `
 
-	return fmt.Sprintf(template, c3, c3, c1, c1)
+	return fmt.Sprintf(template, c3, c3, c1, c1, c1, c1)
 }
 
 func Category(lang string) string {
