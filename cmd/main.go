@@ -56,6 +56,7 @@ func main() {
 
 	writer := bufio.NewWriter(file)
 	writer.WriteString(mystars.Title())
+	writer.WriteString(mystars.Desc())
 
 	for lang, items := range collect {
 		if lang == "Others" {
