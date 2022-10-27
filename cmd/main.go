@@ -38,11 +38,13 @@ func main() {
 	writer := bufio.NewWriter(file)
 	writer.WriteString(mystars.Title())
 	writer.WriteString(mystars.Desc())
+	writer.WriteString(mystars.Separator())
 	// 写入group
 	writer.WriteString(mystars.Category("Following Group"))
 	for _, f := range following {
 		writer.WriteString(mystars.Link(f.Name, f.Url))
 	}
+	writer.WriteString(mystars.Separator())
 	// 按语言顺序写入
 	for _, lang := range langs {
 		writer.WriteString(mystars.Category(lang))
