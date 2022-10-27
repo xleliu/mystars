@@ -22,6 +22,11 @@ type Abstract struct {
 	License   string
 }
 
+type Following struct {
+	Url  string
+	Name string
+}
+
 func GetLicense(l *github.License) string {
 	if l == nil {
 		return ""
@@ -55,6 +60,10 @@ func NewGithub(ctx context.Context, accessToken string) *Github {
 	}
 }
 
+func (g *Github) ResetPage() {
+	g.NextPage, g.LastPage = 1, 0
+}
+
 func (g *Github) HasNext() bool {
 	fmt.Printf("WIP… Next Page: %d, Last Page: %d\n", g.NextPage, g.LastPage)
 	if g.NextPage == 0 {
@@ -76,4 +85,14 @@ func (g *Github) MyStars(ctx context.Context) ([]*github.StarredRepository, erro
 	repos, resp, err := g.client.Activity.ListStarred(ctx, "", opts)
 	g.NextPage, g.LastPage = resp.NextPage, resp.LastPage
 	return repos, err
+}
+
+func (g *Github) MyFollowing(ctx context.Context) ([]*github.User, error) {
+	opts := &github.ListOptions{
+		Page: g.NextPage,
+		// PerPage: 30,
+	}
+	users, resp, err := g.client.Users.ListFollowing(ctx, "", opts)
+	g.NextPage, g.LastPage = resp.NextPage, resp.LastPage
+	return users, err
 }

@@ -35,6 +35,10 @@ func Category(lang string) string {
 	return "\n### " + lang + "\n"
 }
 
+func Link(name, url string) string {
+	return fmt.Sprintf("- [%s](%s)\n", name, url)
+}
+
 func Repo(abst *Abstract) string {
 	template := "- [%s](%s) - %s (`stars: %d`, `license: %s`)\n"
 

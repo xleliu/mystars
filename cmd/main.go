@@ -25,7 +25,43 @@ func main() {
 	ctx := context.Background()
 	github := mystars.NewGithub(ctx, accessToken)
 
-	var collect = make(map[string][]*mystars.Abstract)
+	following := getMyFollowingGroup(ctx, github)
+	// return
+	stars, langs := getMyStars(ctx, github)
+
+	file, err := os.OpenFile(mdFile, os.O_WRONLY|os.O_CREATE, 0755)
+	if err != nil {
+		log.Println(err)
+	}
+	defer file.Close()
+
+	writer := bufio.NewWriter(file)
+	writer.WriteString(mystars.Title())
+	writer.WriteString(mystars.Desc())
+	// 写入group
+	writer.WriteString(mystars.Category("Following Group"))
+	for _, f := range following {
+		writer.WriteString(mystars.Link(f.Name, f.Url))
+	}
+	// 按语言顺序写入
+	for _, lang := range langs {
+		writer.WriteString(mystars.Category(lang))
+		for _, abst := range stars[lang] {
+			writer.WriteString(mystars.Repo(abst))
+		}
+	}
+	writer.Flush()
+
+	log.Println("DONE!")
+}
+
+func getMyStars(ctx context.Context, github *mystars.Github) (map[string][]*mystars.Abstract, []string) {
+	var (
+		collect = make(map[string][]*mystars.Abstract)
+		langs   = []string{}
+	)
+	defer github.ResetPage()
+
 	for github.HasNext() {
 		repos, err := github.MyStars(ctx)
 		if err != nil {
@@ -44,7 +80,6 @@ func main() {
 		}
 	}
 
-	var langs = []string{}
 	var others = false
 	for l := range collect {
 		if l == "Others" {
@@ -58,23 +93,28 @@ func main() {
 		langs = append(langs, "Others")
 	}
 
-	file, err := os.OpenFile(mdFile, os.O_WRONLY|os.O_CREATE, 0755)
-	if err != nil {
-		log.Println(err)
-	}
-	defer file.Close()
+	return collect, langs
+}
 
-	writer := bufio.NewWriter(file)
-	writer.WriteString(mystars.Title())
-	writer.WriteString(mystars.Desc())
-	// 按语言顺序写入
-	for _, lang := range langs {
-		writer.WriteString(mystars.Category(lang))
-		for _, abst := range collect[lang] {
-			writer.WriteString(mystars.Repo(abst))
+func getMyFollowingGroup(ctx context.Context, github *mystars.Github) []*mystars.Following {
+	var following = []*mystars.Following{}
+	defer github.ResetPage()
+
+	for github.HasNext() {
+		users, err := github.MyFollowing(ctx)
+		if err != nil {
+			log.Fatalln(err)
+		}
+		for _, user := range users {
+			if *user.Type == "User" {
+				continue
+			}
+			following = append(following, &mystars.Following{
+				Url:  *user.HTMLURL,
+				Name: *user.Login,
+			})
 		}
 	}
-	writer.Flush()
 
-	log.Println("DONE!")
+	return following
 }
