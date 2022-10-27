@@ -1,5 +1,5 @@
 # My Stars
-Updated at: Thu, 27 Oct 2022 15:05:39 +0000
+Updated at: Thu, 27 Oct 2022 15:13:36 +0000
 
 Usage:
 1. Get a access token from [github](https://github.com/settings/tokens)
@@ -27,6 +27,8 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [meilisearch](https://github.com/meilisearch)
 - [ClickHouse](https://github.com/ClickHouse)
 - [lnx-search](https://github.com/lnx-search)
+
+---
 
 ### ANTLR
 - [antlr/grammars-v4](https://github.com/antlr/grammars-v4) - Grammars written for ANTLR v4; expectation that the grammars are free of actions. (`stars: 8106`, `license: mit`)
@@ -64,7 +66,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [huihut/interview](https://github.com/huihut/interview) - 📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, inclu…… (`stars: 26372`, `license: other`)
 - [google/tink](https://github.com/google/tink) - Tink is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and hard(er) to misuse. (`stars: 12766`, `license: apache-2.0`)
 - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) - ClickHouse® is a free analytics DBMS for big data (`stars: 25919`, `license: apache-2.0`)
-- [envoyproxy/envoy](https://github.com/envoyproxy/envoy) - Cloud-native high-performance edge/middle/service proxy (`stars: 20724`, `license: apache-2.0`)
+- [envoyproxy/envoy](https://github.com/envoyproxy/envoy) - Cloud-native high-performance edge/middle/service proxy (`stars: 20723`, `license: apache-2.0`)
 - [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) - ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs. It has a robust event-based programming langu…… (`stars: 5817`, `license: apache-2.0`)
 - [pytorch/pytorch](https://github.com/pytorch/pytorch) - Tensors and Dynamic neural networks in Python with strong GPU acceleration (`stars: 59869`, `license: other`)
 - [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format (`stars: 56795`, `license: other`)
@@ -80,10 +82,10 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [laradock/laradock](https://github.com/laradock/laradock) - Full PHP development environment for Docker. (`stars: 11550`, `license: mit`)
 
 ### Go
-- [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew) - 📦 Find and install kubectl plugins (`stars: 5129`, `license: apache-2.0`)
+- [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew) - 📦 Find and install kubectl plugins (`stars: 5130`, `license: apache-2.0`)
 - [dagger/dagger](https://github.com/dagger/dagger) - A programmable CI/CD engine that runs your pipelines in containers (`stars: 6170`, `license: apache-2.0`)
 - [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - A prompt theme engine for any shell. (`stars: 8310`, `license: mit`)
-- [answerdev/answer](https://github.com/answerdev/answer) - An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more. (`stars: 2361`, `license: apache-2.0`)
+- [answerdev/answer](https://github.com/answerdev/answer) - An open-source knowledge based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more. (`stars: 2366`, `license: apache-2.0`)
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration. (`stars: 10242`, `license: mpl-2.0`)
 - [google/go-github](https://github.com/google/go-github) - Go library for accessing the GitHub v3 API (`stars: 8899`, `license: bsd-3-clause`)
 - [tetratelabs/wazero](https://github.com/tetratelabs/wazero) - wazero: the zero dependency WebAssembly runtime for Go developers (`stars: 2088`, `license: apache-2.0`)
@@ -102,7 +104,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not fre…… (`stars: 10050`, `license: mit`)
 - [jetpack-io/devbox](https://github.com/jetpack-io/devbox) - Instant, easy, predictable shells and containers. (`stars: 3999`, `license: apache-2.0`)
 - [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) - Cross-platform file system notifications for Go. (`stars: 7557`, `license: bsd-3-clause`)
-- [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) - ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解 (`stars: 27630`, `license: mit`)
+- [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) - ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解 (`stars: 27631`, `license: mit`)
 - [berty/berty](https://github.com/berty/berty) - Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network (`stars: 6157`, `license: other`)
 - [kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL (`stars: 6611`, `license: mit`)
 - [fortio/fortio](https://github.com/fortio/fortio) - Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats. (`stars: 2718`, `license: apache-2.0`)
@@ -110,7 +112,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [bufbuild/protoc-gen-validate](https://github.com/bufbuild/protoc-gen-validate) - protoc plugin to generate polyglot message validators (`stars: 2747`, `license: apache-2.0`)
 - [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) - Workflow engine for Kubernetes (`stars: 11971`, `license: apache-2.0`)
 - [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file (`stars: 15112`, `license: mit`)
-- [gorse-io/gorse](https://github.com/gorse-io/gorse) - An open source recommender system service written in Go (`stars: 6290`, `license: apache-2.0`)
+- [gorse-io/gorse](https://github.com/gorse-io/gorse) - An open source recommender system service written in Go (`stars: 6291`, `license: apache-2.0`)
 - [werf/werf](https://github.com/werf/werf) - A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices. (`stars: 3348`, `license: apache-2.0`)
 - [dstotijn/hetty](https://github.com/dstotijn/hetty) - An HTTP toolkit for security research. (`stars: 4970`, `license: mit`)
 - [geektutu/high-performance-go](https://github.com/geektutu/high-performance-go) - high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps） (`stars: 3288`, `license: mit`)
@@ -131,7 +133,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [mosn/holmes](https://github.com/mosn/holmes) - self-aware Golang profile dumper (`stars: 808`, `license: apache-2.0`)
 - [cloudflare/tableflip](https://github.com/cloudflare/tableflip) - Graceful process restarts in Go (`stars: 2377`, `license: bsd-3-clause`)
 - [hashicorp/go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error. (`stars: 1738`, `license: mpl-2.0`)
-- [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Build your own cloud with one click！ (`stars: 9698`, `license: apache-2.0`)
+- [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Build your own cloud with one click！ (`stars: 9699`, `license: apache-2.0`)
 - [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - Network-wide ads & trackers blocking DNS server (`stars: 13281`, `license: gpl-3.0`)
 - [segmentio/golines](https://github.com/segmentio/golines) - A golang formatter that fixes long lines (`stars: 485`, `license: mit`)
 - [golang/proposal](https://github.com/golang/proposal) - Go Project Design Documents (`stars: 3015`, `license: bsd-3-clause`)
@@ -141,7 +143,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [google/syzkaller](https://github.com/google/syzkaller) - syzkaller is an unsupervised coverage-guided kernel fuzzer (`stars: 4403`, `license: apache-2.0`)
 - [uber-go/multierr](https://github.com/uber-go/multierr) - Combine one or more Go errors together (`stars: 715`, `license: mit`)
 - [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Sql mock driver for golang to test database interactions (`stars: 4785`, `license: other`)
-- [containerd/nerdctl](https://github.com/containerd/nerdctl) - contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ... (`stars: 4723`, `license: apache-2.0`)
+- [containerd/nerdctl](https://github.com/containerd/nerdctl) - contaiNERD CTL - Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ... (`stars: 4724`, `license: apache-2.0`)
 - [milvus-io/milvus](https://github.com/milvus-io/milvus) - Vector database for scalable similarity search and AI applications. (`stars: 14070`, `license: apache-2.0`)
 - [TykTechnologies/tyk](https://github.com/TykTechnologies/tyk) - Tyk Open Source API Gateway written in Go, supporting REST, GraphQL, TCP and gRPC protocols (`stars: 7844`, `license: other`)
 - [ory/hydra](https://github.com/ory/hydra) - OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Works with Hardware Security …… (`stars: 13242`, `license: apache-2.0`)
@@ -182,10 +184,10 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) - 🤯 High-performance PHP application server, process manager written in Go and powered with plugins (`stars: 6817`, `license: mit`)
 - [dolthub/dolt](https://github.com/dolthub/dolt) - Dolt – Git for Data (`stars: 13300`, `license: apache-2.0`)
 - [volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler) - Generate a Go ORM tailored to your database schema. (`stars: 5277`, `license: bsd-3-clause`)
-- [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software (`stars: 89982`, `license: mit`)
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software (`stars: 89983`, `license: mit`)
 - [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go (`stars: 19338`, `license: mit`)
-- [minio/minio](https://github.com/minio/minio) - Multi-Cloud :cloud: Object Storage  (`stars: 36022`, `license: agpl-3.0`)
-- [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style! (`stars: 18386`, `license: apache-2.0`)
+- [minio/minio](https://github.com/minio/minio) - Multi-Cloud :cloud: Object Storage  (`stars: 36023`, `license: agpl-3.0`)
+- [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style! (`stars: 18387`, `license: apache-2.0`)
 - [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like. (`stars: 37355`, `license: bsd-3-clause`)
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms (`stars: 20338`, `license: apache-2.0`)
 - [liftbridge-io/liftbridge](https://github.com/liftbridge-io/liftbridge) - Lightweight, fault-tolerant message streams. (`stars: 2370`, `license: apache-2.0`)
@@ -199,7 +201,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [harness/drone](https://github.com/harness/drone) - Drone is a Container-Native, Continuous Delivery Platform (`stars: 25919`, `license: other`)
 - [Masterminds/squirrel](https://github.com/Masterminds/squirrel) - Fluent SQL generation for golang (`stars: 5262`, `license: other`)
 - [mainflux/mainflux](https://github.com/mainflux/mainflux) - Industrial IoT Messaging and Device Management Platform (`stars: 1912`, `license: apache-2.0`)
-- [Dreamacro/clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go. (`stars: 32367`, `license: gpl-3.0`)
+- [Dreamacro/clash](https://github.com/Dreamacro/clash) - A rule-based tunnel in Go. (`stars: 32369`, `license: gpl-3.0`)
 - [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files (`stars: 35233`, `license: mit`)
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨ (`stars: 23002`, `license: other`)
 - [arl/statsviz](https://github.com/arl/statsviz) - :rocket: Visualise Go program runtime metrics in real time in your browser (`stars: 2407`, `license: mit`)
@@ -211,7 +213,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [nats-io/nats-streaming-server](https://github.com/nats-io/nats-streaming-server) - NATS Streaming System Server (`stars: 2423`, `license: apache-2.0`)
 - [ent/ent](https://github.com/ent/ent) - An entity framework for Go (`stars: 11851`, `license: apache-2.0`)
 - [sanity-io/litter](https://github.com/sanity-io/litter) - Litter is a pretty printer library for Go data structures to aid in debugging and testing. (`stars: 1347`, `license: mit`)
-- [go-gorm/gorm](https://github.com/go-gorm/gorm) - The fantastic ORM library for Golang, aims to be developer friendly (`stars: 30135`, `license: mit`)
+- [go-gorm/gorm](https://github.com/go-gorm/gorm) - The fantastic ORM library for Golang, aims to be developer friendly (`stars: 30136`, `license: mit`)
 - [robfig/cron](https://github.com/robfig/cron) - a cron library for go (`stars: 10436`, `license: mit`)
 - [evanw/esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript and CSS bundler and minifier (`stars: 33714`, `license: mit`)
 - [protocolbuffers/protobuf-go](https://github.com/protocolbuffers/protobuf-go) - Go support for Google's protocol buffers (`stars: 1886`, `license: bsd-3-clause`)
@@ -220,7 +222,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [chai2010/go-ast-book](https://github.com/chai2010/go-ast-book) - :books: 《Go语言定制指南》(原名：Go语法树入门/开源免费图书/Go语言进阶/掌握抽象语法树/Go语言AST) (`stars: 4698`, `license: `)
 - [gohugoio/hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites. (`stars: 63278`, `license: apache-2.0`)
 - [matryer/xbar](https://github.com/matryer/xbar) - Put the output from any script or program into your macOS Menu Bar (the BitBar reboot) (`stars: 16392`, `license: mit`)
-- [golang-migrate/migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library. (`stars: 10083`, `license: other`)
+- [golang-migrate/migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library. (`stars: 10082`, `license: other`)
 - [go-resty/resty](https://github.com/go-resty/resty) - Simple HTTP and REST client library for Go (`stars: 6850`, `license: mit`)
 - [hybridgroup/gobot](https://github.com/hybridgroup/gobot) - Golang framework for robotics, drones, and the Internet of Things (IoT) (`stars: 7968`, `license: other`)
 - [uber-go/zap](https://github.com/uber-go/zap) - Blazing fast, structured, leveled logging in Go. (`stars: 17274`, `license: mit`)
@@ -233,7 +235,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [cri-o/cri-o](https://github.com/cri-o/cri-o) - Open Container Initiative-based implementation of Kubernetes Container Runtime Interface (`stars: 4288`, `license: apache-2.0`)
 - [fission/fission](https://github.com/fission/fission) - Fast and Simple Serverless Functions for Kubernetes (`stars: 7314`, `license: apache-2.0`)
 - [containerd/cri](https://github.com/containerd/cri) - Moved to https://github.com/containerd/containerd/tree/master/pkg/cri . If you wish to submit issues/PRs, please submit to https://github.com/containerd/containerd (`stars: 894`, `license: apache-2.0`)
-- [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform (`stars: 16609`, `license: apache-2.0`)
+- [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform (`stars: 16608`, `license: apache-2.0`)
 - [go-playground/validator](https://github.com/go-playground/validator) - :100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving (`stars: 11659`, `license: mit`)
 - [labstack/echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework (`stars: 24077`, `license: mit`)
 - [google/uuid](https://github.com/google/uuid) - Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication and Security Services. (`stars: 3944`, `license: bsd-3-clause`)
@@ -249,7 +251,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [opencontainers/runc](https://github.com/opencontainers/runc) - CLI tool for spawning and running containers according to the OCI specification (`stars: 9692`, `license: apache-2.0`)
 - [containerd/containerd](https://github.com/containerd/containerd) - An open and reliable container runtime (`stars: 12361`, `license: apache-2.0`)
 - [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) - Ingress-NGINX Controller for Kubernetes (`stars: 13716`, `license: apache-2.0`)
-- [kubernetes/kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes (`stars: 8032`, `license: apache-2.0`)
+- [kubernetes/kompose](https://github.com/kubernetes/kompose) - Go from Docker Compose to Kubernetes (`stars: 8031`, `license: apache-2.0`)
 - [kubernetes/dashboard](https://github.com/kubernetes/dashboard) - General-purpose web UI for Kubernetes clusters (`stars: 11802`, `license: apache-2.0`)
 - [helm/helm](https://github.com/helm/helm) - The Kubernetes Package Manager (`stars: 22929`, `license: apache-2.0`)
 - [openark/orchestrator](https://github.com/openark/orchestrator) - MySQL replication topology management and HA (`stars: 4698`, `license: apache-2.0`)
@@ -265,11 +267,11 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/3 web server with automatic HTTPS (`stars: 43966`, `license: apache-2.0`)
 - [joewalnes/websocketd](https://github.com/joewalnes/websocketd) - Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.  (`stars: 16393`, `license: bsd-2-clause`)
 - [gorilla/websocket](https://github.com/gorilla/websocket) - A fast, well-tested and widely used WebSocket implementation for Go. (`stars: 18258`, `license: bsd-2-clause`)
-- [golang/go](https://github.com/golang/go) - The Go programming language (`stars: 105168`, `license: bsd-3-clause`)
-- [spf13/viper](https://github.com/spf13/viper) - Go configuration with fangs (`stars: 20988`, `license: mit`)
+- [golang/go](https://github.com/golang/go) - The Go programming language (`stars: 105167`, `license: bsd-3-clause`)
+- [spf13/viper](https://github.com/spf13/viper) - Go configuration with fangs (`stars: 20989`, `license: mit`)
 - [go-delve/delve](https://github.com/go-delve/delve) - Delve is a debugger for the Go programming language. (`stars: 19393`, `license: mit`)
 - [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions (`stars: 29215`, `license: apache-2.0`)
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management (`stars: 93227`, `license: apache-2.0`)
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management (`stars: 93226`, `license: apache-2.0`)
 
 ### HTML
 - [brave/brave-core](https://github.com/brave/brave-core) - Core engine for the Brave browser for Android, Linux, macOS, Windows. For issues https://github.com/brave/brave-browser/issues (`stars: 1862`, `license: mpl-2.0`)
@@ -296,13 +298,13 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) - Deploy a Production Ready Kubernetes Cluster (`stars: 13052`, `license: apache-2.0`)
 
 ### Jupyter Notebook
-- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - A latent text-to-image diffusion model (`stars: 32227`, `license: other`)
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - A latent text-to-image diffusion model (`stars: 32228`, `license: other`)
 - [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) - 10 Weeks, 20 Lessons, Data Science for All! (`stars: 16334`, `license: mit`)
 - [AkashSingh3031/The-Complete-FAANG-Preparation](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation) - This repository contains all the DSA (Data-Structures, Algorithms, 450 DSA by Love Babbar Bhaiya, FAANG Questions), Technical Subjects (OS + DBMS + SQL + CN + OOPs) Theory+Questions, FAANG Interview q…… (`stars: 8309`, `license: mit`)
 
 ### Lua
 - [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) - Image Super-Resolution for Anime-Style Art (`stars: 25050`, `license: mit`)
-- [Kong/kong](https://github.com/Kong/kong) - 🦍 The Cloud-Native API Gateway  (`stars: 33182`, `license: apache-2.0`)
+- [Kong/kong](https://github.com/Kong/kong) - 🦍 The Cloud-Native API Gateway  (`stars: 33181`, `license: apache-2.0`)
 
 ### Makefile
 - [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Standard Go Project Layout (`stars: 35479`, `license: other`)
@@ -311,7 +313,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) - 刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.  (`stars: 111405`, `license: `)
 
 ### OCaml
-- [comby-tools/comby](https://github.com/comby-tools/comby) - A code rewrite tool for structural search and replace that supports ~every language. (`stars: 1878`, `license: apache-2.0`)
+- [comby-tools/comby](https://github.com/comby-tools/comby) - A code rewrite tool for structural search and replace that supports ~every language. (`stars: 1879`, `license: apache-2.0`)
 
 ### Objective-C
 - [sparkle-project/Sparkle](https://github.com/sparkle-project/Sparkle) - A software update framework for macOS (`stars: 6104`, `license: other`)
@@ -373,13 +375,13 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [FutunnOpen/py-futu-api](https://github.com/FutunnOpen/py-futu-api) - 富途 OpenAPI  Python SDK (`stars: 856`, `license: apache-2.0`)
 - [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) - Comprehensive Python Cheatsheet (`stars: 30488`, `license: `)
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) - 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名…… (`stars: 44316`, `license: `)
-- [home-assistant/core](https://github.com/home-assistant/core) - :house_with_garden: Open source home automation that puts local control and privacy first. (`stars: 55512`, `license: apache-2.0`)
+- [home-assistant/core](https://github.com/home-assistant/core) - :house_with_garden: Open source home automation that puts local control and privacy first. (`stars: 55513`, `license: apache-2.0`)
 - [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) - Asynchronous HTTP client/server framework for asyncio and Python (`stars: 12960`, `license: other`)
 - [soimort/you-get](https://github.com/soimort/you-get) - :arrow_double_down: Dumb downloader that scrapes the web (`stars: 45813`, `license: other`)
 - [getsentry/sentry](https://github.com/getsentry/sentry) - Developer-first error tracking and performance monitoring (`stars: 32394`, `license: other`)
 - [Supervisor/supervisor](https://github.com/Supervisor/supervisor) - Supervisor process control system for Unix (supervisord) (`stars: 7513`, `license: other`)
 - [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool (`stars: 25036`, `license: other`)
-- [scrapy/scrapy](https://github.com/scrapy/scrapy) - Scrapy, a fast high-level web crawling & scraping framework for Python. (`stars: 44983`, `license: bsd-3-clause`)
+- [scrapy/scrapy](https://github.com/scrapy/scrapy) - Scrapy, a fast high-level web crawling & scraping framework for Python. (`stars: 44984`, `license: bsd-3-clause`)
 - [dbcli/mycli](https://github.com/dbcli/mycli) - A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting. (`stars: 10623`, `license: other`)
 - [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. (`stars: 29048`, `license: mit`)
 - [ansible/ansible](https://github.com/ansible/ansible) - Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud …… (`stars: 55208`, `license: gpl-3.0`)
@@ -396,16 +398,16 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [postgresml/postgresml](https://github.com/postgresml/postgresml) - PostgresML is an end-to-end machine learning system. It enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database. (`stars: 2000`, `license: mit`)
 - [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web (`stars: 24430`, `license: apache-2.0`)
 - [pintariching/rustle](https://github.com/pintariching/rustle) - Svelte compiler rewritten in Rust (`stars: 1177`, `license: mit`)
-- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (`stars: 14332`, `license: other`)
+- [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web (`stars: 14333`, `license: other`)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer) - 🚀 The leading WebAssembly Runtime supporting WASI and Emscripten (`stars: 13227`, `license: mit`)
 - [rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack) - 📦✨ your favorite rust -> wasm workflow tool! (`stars: 4612`, `license: apache-2.0`)
 - [tinysearch/tinysearch](https://github.com/tinysearch/tinysearch) - 🔍 Tiny, full-text search engine for static websites built with Rust and Wasm (`stars: 2131`, `license: apache-2.0`)
-- [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM. (`stars: 16082`, `license: mpl-2.0`)
+- [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM. (`stars: 16083`, `license: mpl-2.0`)
 - [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务 (`stars: 5635`, `license: mit`)
 - [spacedriveapp/spacedrive](https://github.com/spacedriveapp/spacedrive) - Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust. (`stars: 14877`, `license: agpl-3.0`)
 - [01mf02/jaq](https://github.com/01mf02/jaq) - A jq clone focussed on correctness, speed, and simplicity (`stars: 613`, `license: mit`)
-- [roapi/roapi](https://github.com/roapi/roapi) - Create full-fledged APIs for slowly moving datasets without writing a single line of code. (`stars: 2468`, `license: apache-2.0`)
-- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续六年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，甚至还有JS程序员关注的 WASM 和 Deno 等专题。这可能是目前最用心的 Rust 中文学习教程 / Book  (`stars: 11453`, `license: `)
+- [roapi/roapi](https://github.com/roapi/roapi) - Create full-fledged APIs for slowly moving datasets without writing a single line of code. (`stars: 2469`, `license: apache-2.0`)
+- [sunface/rust-course](https://github.com/sunface/rust-course) - “连续六年成为全世界最受喜爱的语言，无 GC 也无需手动内存管理、极高的性能和安全性、过程/OO/函数式编程、优秀的包管理、JS 未来基石" — 工作之余的第二语言来试试 Rust 吧。<<Rust语言圣经>>拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，甚至还有JS程序员关注的 WASM 和 Deno 等专题。这可能是目前最用心的 Rust 中文学习教程 / Book  (`stars: 11454`, `license: `)
 - [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests (`stars: 3201`, `license: mit`)
 - [analysis-tools-dev/static-analysis](https://github.com/analysis-tools-dev/static-analysis) - ⚙️ A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality. (`stars: 10417`, `license: mit`)
 - [awslabs/shuttle](https://github.com/awslabs/shuttle) - Shuttle is a library for testing concurrent Rust code (`stars: 353`, `license: apache-2.0`)
@@ -445,8 +447,8 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [clap-rs/clap](https://github.com/clap-rs/clap) - A full featured, fast Command Line Argument Parser for Rust (`stars: 9860`, `license: apache-2.0`)
 - [petgraph/petgraph](https://github.com/petgraph/petgraph) - Graph data structure library for Rust. (`stars: 1893`, `license: apache-2.0`)
 - [denoland/deno](https://github.com/denoland/deno) - A modern runtime for JavaScript and TypeScript. (`stars: 86039`, `license: mit`)
-- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust (`stars: 10982`, `license: mpl-2.0`)
-- [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! (`stars: 29920`, `license: isc`)
+- [rust-lang/mdBook](https://github.com/rust-lang/mdBook) - Create book from markdown files. Like Gitbook but implemented in Rust (`stars: 10981`, `license: mpl-2.0`)
+- [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! (`stars: 29921`, `license: isc`)
 - [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer (`stars: 7157`, `license: apache-2.0`)
 - [Peltoche/lsd](https://github.com/Peltoche/lsd) - The next gen ls command (`stars: 8593`, `license: apache-2.0`)
 - [sharkdp/bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings. (`stars: 37788`, `license: apache-2.0`)
@@ -465,7 +467,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 
 ### Swift
 - [aahung/Unshaky](https://github.com/aahung/Unshaky) - A software attempt to address the "double key press" issue on Apple's butterfly keyboard [not actively maintained] (`stars: 2836`, `license: mit`)
-- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever. (`stars: 15391`, `license: mit`)
+- [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) - CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever. (`stars: 15392`, `license: mit`)
 - [ObuchiYuki/DevToysMac](https://github.com/ObuchiYuki/DevToysMac) - DevToys For mac (`stars: 5929`, `license: mit`)
 - [yichengchen/clashX](https://github.com/yichengchen/clashX) -  (`stars: 20353`, `license: agpl-3.0`)
 - [sindresorhus/Plash](https://github.com/sindresorhus/Plash) - 💦 Make any website your Mac desktop wallpaper (`stars: 2356`, `license: mit`)
