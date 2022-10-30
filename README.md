@@ -1,5 +1,5 @@
 # My Stars
-Updated at: Sun, 30 Oct 2022 07:39:50 +0000
+Updated at: Sun, 30 Oct 2022 07:42:33 +0000
 
 Usage:
 1. Get a access token from [github](https://github.com/settings/tokens)
@@ -268,7 +268,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/3 web server with automatic HTTPS (`stars: 43995`, `license: apache-2.0`)
 - [joewalnes/websocketd](https://github.com/joewalnes/websocketd) - Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets.  (`stars: 16393`, `license: bsd-2-clause`)
 - [gorilla/websocket](https://github.com/gorilla/websocket) - A fast, well-tested and widely used WebSocket implementation for Go. (`stars: 18270`, `license: bsd-2-clause`)
-- [golang/go](https://github.com/golang/go) - The Go programming language (`stars: 105284`, `license: bsd-3-clause`)
+- [golang/go](https://github.com/golang/go) - The Go programming language (`stars: 105285`, `license: bsd-3-clause`)
 - [spf13/viper](https://github.com/spf13/viper) - Go configuration with fangs (`stars: 21017`, `license: mit`)
 - [go-delve/delve](https://github.com/go-delve/delve) - Delve is a debugger for the Go programming language. (`stars: 19398`, `license: mit`)
 - [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions (`stars: 29251`, `license: apache-2.0`)
@@ -417,7 +417,7 @@ If use the Github Action, please set up `secrets.UPDATE_TOKEN`.
 - [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) - Hurl, run and test HTTP requests with plain text. (`stars: 1988`, `license: apache-2.0`)
 - [eycorsican/leaf](https://github.com/eycorsican/leaf) - A versatile and efficient proxy framework with nice features suitable for various use cases. (`stars: 1555`, `license: apache-2.0`)
 - [tokio-rs/prost](https://github.com/tokio-rs/prost) - PROST! a Protocol Buffers implementation for the Rust Language (`stars: 2363`, `license: apache-2.0`)
-- [tokio-rs/tracing](https://github.com/tokio-rs/tracing) - Application level tracing for Rust. (`stars: 3098`, `license: mit`)
+- [tokio-rs/tracing](https://github.com/tokio-rs/tracing) - Application level tracing for Rust. (`stars: 3099`, `license: mit`)
 - [ron-rs/ron](https://github.com/ron-rs/ron) - Rusty Object Notation (`stars: 2243`, `license: apache-2.0`)
 - [rune-rs/rune](https://github.com/rune-rs/rune) - An embeddable dynamic programming language for Rust. (`stars: 1064`, `license: apache-2.0`)
 - [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) - Statistics-driven benchmarking library for Rust (`stars: 2884`, `license: apache-2.0`)
