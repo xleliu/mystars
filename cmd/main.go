@@ -25,7 +25,6 @@ func main() {
 	github := mystars.NewGithub(ctx, accessToken)
 
 	following := getMyFollowingGroup(ctx, github)
-	// return
 	stars, langs := getMyStars(ctx, github)
 
 	file, err := os.OpenFile(mdFile, os.O_WRONLY|os.O_CREATE, 0755)
@@ -39,13 +38,11 @@ func main() {
 	g.Desc()
 	g.Separator()
 	// 写入group
-	log.Println("Get Following Organizations……")
 	g.Category("Following Organizations")
 	for _, f := range following {
 		g.Link(f.Name, f.Url)
 	}
 	g.Separator()
-	log.Println("Get Starred Projects……")
 	// 按语言顺序写入
 	for _, lang := range langs {
 		g.Category(lang)
@@ -59,6 +56,8 @@ func main() {
 }
 
 func getMyStars(ctx context.Context, github *mystars.Github) (map[string][]*mystars.Abstract, []string) {
+	log.Println("Get Starred Projects……")
+
 	var (
 		collect = make(map[string][]*mystars.Abstract)
 		langs   = []string{}
@@ -100,6 +99,8 @@ func getMyStars(ctx context.Context, github *mystars.Github) (map[string][]*myst
 }
 
 func getMyFollowingGroup(ctx context.Context, github *mystars.Github) []*mystars.Following {
+	log.Println("Get Following Organizations……")
+
 	var following = []*mystars.Following{}
 	defer github.ResetPage()
 
