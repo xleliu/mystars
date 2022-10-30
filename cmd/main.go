@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"context"
 	"flag"
 	"log"
@@ -35,24 +34,26 @@ func main() {
 	}
 	defer file.Close()
 
-	writer := bufio.NewWriter(file)
-	writer.WriteString(mystars.Title())
-	writer.WriteString(mystars.Desc())
-	writer.WriteString(mystars.Separator())
+	g := mystars.NewGenerater(file)
+	g.Title()
+	g.Desc()
+	g.Separator()
 	// 写入group
-	writer.WriteString(mystars.Category("Following Group"))
+	log.Println("Get Following Organizations……")
+	g.Category("Following Organizations")
 	for _, f := range following {
-		writer.WriteString(mystars.Link(f.Name, f.Url))
+		g.Link(f.Name, f.Url)
 	}
-	writer.WriteString(mystars.Separator())
+	g.Separator()
+	log.Println("Get Starred Projects……")
 	// 按语言顺序写入
 	for _, lang := range langs {
-		writer.WriteString(mystars.Category(lang))
+		g.Category(lang)
 		for _, abst := range stars[lang] {
-			writer.WriteString(mystars.Repo(abst))
+			g.Repo(abst)
 		}
 	}
-	writer.Flush()
+	g.Flush()
 
 	log.Println("DONE!")
 }

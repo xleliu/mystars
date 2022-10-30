@@ -2,7 +2,7 @@ package mystars
 
 import (
 	"context"
-	"fmt"
+	"log"
 
 	"github.com/google/go-github/v48/github"
 	"golang.org/x/oauth2"
@@ -65,7 +65,7 @@ func (g *Github) ResetPage() {
 }
 
 func (g *Github) HasNext() bool {
-	fmt.Printf("WIP… Next Page: %d, Last Page: %d\n", g.NextPage, g.LastPage)
+	log.Printf("WIP… Next Page: %d, Last Page: %d\n", g.NextPage, g.LastPage)
 	if g.NextPage == 0 {
 		return false
 	}
