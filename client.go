@@ -25,6 +25,7 @@ type Abstract struct {
 type Following struct {
 	Url  string
 	Name string
+	Desc string
 }
 
 func GetLicense(l *github.License) string {

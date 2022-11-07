@@ -40,7 +40,7 @@ func main() {
 	// 写入group
 	g.Category("Following Organizations")
 	for _, f := range following {
-		g.Link(f.Name, f.Url)
+		g.Org(f.Name, f.Url, f.Desc)
 	}
 	g.Separator()
 	// 按语言顺序写入
@@ -116,6 +116,7 @@ func getMyFollowingGroup(ctx context.Context, github *mystars.Github) []*mystars
 			following = append(following, &mystars.Following{
 				Url:  *user.HTMLURL,
 				Name: *user.Login,
+				Desc: *user.Bio,
 			})
 		}
 	}

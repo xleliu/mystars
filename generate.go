@@ -46,8 +46,8 @@ func (g *Generater) Category(lang string) (int, error) {
 	return g.w.WriteString("\n### " + lang + "\n")
 }
 
-func (g *Generater) Link(name, url string) (int, error) {
-	s := fmt.Sprintf("- [%s](%s)\n", name, url)
+func (g *Generater) Org(name, url, desc string) (int, error) {
+	s := fmt.Sprintf("- [%s](%s) - %s\n", name, url, desc)
 	return g.w.WriteString(s)
 }
 
