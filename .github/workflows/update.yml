@@ -25,11 +25,13 @@ jobs:
       run: go run cmd/main.go -o README.md -t ${{ secrets.UPDATE_TOKEN }}
 
     - name: Set up Git
+      if: ${{ !env.ACT }}
       run: |
         git config --global user.name "xiaoler"
         git config --global user.email "scholer_l@live.com"
 
     - name: Commit to Git
+      if: ${{ !env.ACT }}
       run: |
         git add README.md
         git commit -m "Update README.md"
