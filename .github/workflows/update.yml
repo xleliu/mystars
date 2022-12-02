@@ -9,6 +9,10 @@ on:
   schedule:
     - cron: "0 0 * * 0"
 
+env:
+  GIT_USER_NAME: xiaoler
+  GIT_USER_EMAIL: scholer_l@live.com
+
 jobs:
 
   build:
@@ -25,10 +29,9 @@ jobs:
       run: go run cmd/main.go -o README.md -t ${{ secrets.UPDATE_TOKEN }}
 
     - name: Set up Git
-      if: ${{ !env.ACT }}
       run: |
-        git config --global user.name "xiaoler"
-        git config --global user.email "scholer_l@live.com"
+        git config --global user.name ${{ env.GIT_USER_NAME }}
+        git config --global user.email ${{ env.GIT_USER_EMAIL }}
 
     - name: Commit to Git
       if: ${{ !env.ACT }}
